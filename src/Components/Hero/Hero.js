@@ -4,7 +4,7 @@ import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
 const Hero = () => {
   return (
-    <section className={`paddings ${css.wrapper}`}>
+    <section className={`bg-primary paddings ${css.wrapper}`}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -27,9 +27,9 @@ const Hero = () => {
 
         <motion.div
           variants={fadeIn("up", "tween", 0.3, 1)}
-          className={css.person}
+          className={`${css.person} ${css.hideImg}`}
         >
-          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./person.png" alt="" />
+          <motion.img className={css.hideImg} variants={slideIn("up", "tween", 0.5, 1.3)} src="./web3.png" alt="" />
         </motion.div>
 
         <a className={css.email} href="mailto:kamranpwebdev@gmail.com">

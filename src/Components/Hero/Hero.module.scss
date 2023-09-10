@@ -65,11 +65,14 @@
             position: absolute;
             bottom: -2rem;
             margin: auto;
-            background-image: url("../../../public/splash.png");
+            // background-image: url("../../../public/splash.png");
             background-repeat: no-repeat;
             background-size: 23rem;
-            left: 33%;
-
+            left: 38%;
+            top: 0;
+            .hideImg {
+                background-color: transparent !important; /* Use !important to ensure the style is applied */
+              }
             img {
                 @media (max-width: $sm ) {
                     width: 23rem;

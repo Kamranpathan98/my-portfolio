@@ -9,7 +9,7 @@ const Footer = () => {
     initial="hidden"
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
-    className={`paddings ${css.wrapper}`}>
+    className={`bg-primary paddings ${css.wrapper}`}>
       
       
       <motion.div

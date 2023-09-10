@@ -23,9 +23,9 @@ const Header = () => {
           Kamran
         </div>
         <ul className={`flexCenter ${css.menu}`} style={getMenuStyles(menuOpen)}>
-          <li><a href=''>Service</a></li>
-          <li><a href=''>Experience</a></li>
-          <li><a href=''>Portfolio</a></li>
+          <li><a href="#experties">Service</a></li>
+          <li><a href='#work'>Experience</a></li>
+          <li><a href='#portfolio'>Portfolio</a></li>
           <li className={`flexCenter ${css.phone}`}>
             <p>(+91) &nbsp; 9730632772</p>
             <BiPhoneCall size={40}/>

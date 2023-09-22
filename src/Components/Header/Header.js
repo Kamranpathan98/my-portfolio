@@ -20,7 +20,7 @@ const Header = () => {
     >
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={`${css.name}`}>
-          Kamran
+          Kamran Pathan
         </div>
         <ul className={`flexCenter ${css.menu}`} style={getMenuStyles(menuOpen)}>
           <li><a href="#experties">Service</a></li>
